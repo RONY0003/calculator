@@ -1,0 +1,149 @@
+
+
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+
+background-color:rgb(75, 72, 72);
+
+}
+
+.container{
+height: 100vh;
+width: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+background-color:#070707;
+
+
+}
+
+.calculatar{
+background-color:rgb(61, 59, 59);
+color: blanchedalmond;
+height: 530px;
+width: 360px;
+padding: 30px;
+border-radius: 30px;
+box-shadow: 5px 5px 15px rgb(29, 27, 27);
+
+
+}
+.calculatar:hover{
+background-color: lawngreen;
+
+
+}
+
+
+.calculatar form{
+border-radius: 20px;
+
+
+}
+
+
+
+.calculatar  input{
+ display:inline-block;   
+height: 60px;
+width: 60px;
+padding-bottom: 5px;
+margin-left: 10px;
+cursor: pointer;
+border-radius: 15px;
+font-size: 35px;
+font-weight: bold;
+background-color:rgb(49, 49, 49);
+color:white;
+box-shadow:5px 5px 15px rgb(51, 50, 50);
+border: none;
+outline: 0;
+
+}
+.calculatar input:hover{
+background-color: darkorange;
+
+}
+
+.calculatar div{
+    padding-bottom: 10px;
+    
+   background-color:rgb(104, 101, 101);
+
+
+}
+.calculatar div:hover{
+background-color: lawngreen;
+
+
+
+}
+
+
+
+.calculatar div.display{
+height:100px ;
+width:100% ;
+padding-bottom: 20px;
+cursor: grabbing;
+background-color:rgb(75, 72, 72);
+
+
+}
+
+.calculatar div.display input:hover{
+background-color: white;
+color: #070707;
+}
+
+.calculatar .display input{
+    height:100% ;
+    width:99.9% ;
+    background-color:rgb(160, 152, 152);
+    color:white;
+    text-align: right;
+    font-size: 50px;
+  margin-left:0;
+border-radius: 0;
+box-shadow: none;
+padding: 5px;
+}
+
+
+
+.calculatar input.equal{
+width: 133px;
+border-radius: 10px;
+
+
+
+}
+h2{
+
+color:black;
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
